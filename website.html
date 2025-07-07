@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/jpeg" href="p logo.jpg">
+    <title>Phetogo ya Botlhe - Atteridgeville</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f2f2f2;
+            color: #333;
+        }
+
+        header {
+            background-color: #004d00;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #006600;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 18px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .section-title {
+            font-size: 30px;
+            margin-bottom: 20px;
+            color: #004d00;
+        }
+
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            max-width: 90%;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            margin-bottom: 10px;
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery-grid img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .contact-form {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 0 6px rgba(0,0,0,0.1);
+            max-width: 600px;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 12px;
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-form button {
+            margin-top: 15px;
+            background-color: #004d00;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 4px;
+        }
+
+        .contact-form button:hover {
+            background-color: #007700;
+        }
+
+        footer {
+            background-color: #003300;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .volunteer-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin: 20px 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .volunteer-card img {
+            width: 120px;
+            height: 120px;
+            border-radius: 60px;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+
+        .volunteer-info h4 {
+            margin: 0;
+            color: #004d00;
+        }
+
+        .volunteer-info p {
+            margin: 8px 0 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Phetogo ya Botlhe</h1>
+    <p>Uplifting Atteridgeville, One Meal at a Time</p>
+</header>
+
+<nav>
+    <a href="#about">Our Story</a>
+    <a href="#volunteers">Volunteers</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2 class="section-title">Our Backstory</h2>
+    <p>
+        Phetogo ya Botlhe was born in the heart of Atteridgeville in 2020 during a time of desperation and need. 
+        When food insecurity hit our township hardest during the pandemic, a few caring hands decided that no one should go to bed hungry.
+        One of the founders, <strong>Mam Dineo Lebelo</strong>, started cooking in a traditional potjie over open flames using her own groceries.
+        Word spread quickly, and neighbours, friends, and strangers started donating ingredients, firewood, and their time.
+    </p>
+
+    <p>
+        From humble beginnings on the dusty streets of Atteridgeville, the project grew into a vital lifeline for many.
+        Today, we feed over 200 families every week — with hope, dignity, and love in every serving. 
+        We believe food is more than nourishment — it’s a symbol of care and humanity.
+    </p>
+
+    <div class="image-container">
+        <img src="9901e56c0f844ada1ac10ca6b9f9e7ae.jpg" alt="Traditional cooking over fire">
+        <p><em>Preparing meals over fire — the soul of Phetogo ya Botlhe</em></p>
+    </div>
+
+    <div class="image-container">
+        <img src="486326821_1078225224347837_4489071527679349726_n.jpg" alt="Groceries ready to be cooked">
+        <p><em>Meat donations from local butchers help us prepare hearty meals</em></p>
+    </div>
+</section>
+
+<section id="volunteers">
+    <h2 class="section-title">Meet Our Volunteers</h2>
+
+    <div class="volunteer-card">
+        <img src="485111809_2169480136820919_376000630973424127_n.jpg" alt="Mam Dineo Lebelo">
+        <div class="volunteer-info">
+            <h4>Mam Dineo Lebelo</h4>
+            <p>Founder and heart of the project. She’s the one who lights the fire, stirs the pot, and always has a warm smile to offer. 
+            Her passion for feeding the community has inspired dozens of others to join her mission.</p>
+        </div>
+    </div>
+
+    <div class="volunteer-card">
+        <img src="504897266_708568918574458_6474684112568223440_n.jpg" alt="Volunteer">
+        <div class="volunteer-info">
+            <h4>Thabiso Mokoena</h4>
+            <p>A University school student who helps deliver food parcels on weekends and keeps our WhatsApp groups running smoothly.</p>
+        </div>
+    </div>
+
+    <div class="volunteer-card">
+        <img src="506339234_9699656703476697_4788579027147734223_n.jpg" alt="Gogo Esther">
+        <div class="volunteer-info">
+            <h4>Gogo Esther</h4>
+            <p>Even in her sixties, Gogo Esther joins us every Sunday morning to peel vegetables and share her wisdom and stories.</p>
+        </div>
+    </div>
+</section>
+
+<section id="gallery">
+    <h2 class="section-title">Gallery</h2>
+    <div class="gallery-grid">
+        <img src="486326821_1078225224347837_4489071527679349726_n.jpg" alt="Groceries">
+        <img src="489821977_2345234725861442_5046778445731395570_n.jpg" alt="Cooking day">
+       
+        <img src="486548915_1079653354205024_3151828112493208377_n.jpg" alt="Kids receiving meals">
+        <img src="514138973_24974752005458479_2777330930698480217_n.jpg" alt="Donation pickup">
+        <img src="517580406_1060470246270747_55952183950480639_n.jpg" alt="Volunteer prepping">
+    </div>
+</section>
+
+<section id="contact">
+    <h2 class="section-title">Get in Touch</h2>
+    <div class="contact-form">
+        <form action="mailto:info@phetogoyabotlhe.org" method="post" enctype="text/plain">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Phetogo ya Botlhe | Atteridgeville | Email: info@phetogoyabotlhe.gmail.com</p>
+</footer>
+
+</body>
+</html>
